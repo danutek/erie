@@ -7,7 +7,7 @@ spec:
   enableMetrics: true
   license:
     accept: true
-    license: L-UTKS-P46KK2
+    license: L-XRNH-47FJAW
     use: CloudPakForIntegrationProduction
   pod:
     containers:
