@@ -1,0 +1,25 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: my-app
+  namespace: argocd
+spec:
+  project: default
+  
+  # Source of the manifests
+  source:
+    repoURL: https://github.com/example-org/example-repo.git
+    targetRevision: main            # Branch, tag, or commit
+    path: apps/my-app               # Path to the manifests in the repo
+
+  # Destination cluster and namespace
+  destination:
+    server: https://kubernetes.default.svc  # In-cluster API URL; use the cluster API URL if it's an external cluster
+    namespace: default
+
+  # Sync policy
+  syncPolicy:
+    automated:                       # Enable auto-sync
+      prune: true                    # Prune resources when they are no longer tracked in Git
+      selfHeal: true                 # Automatically sync if the live state deviates from the desired state
+

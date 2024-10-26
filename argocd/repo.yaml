@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  type: Z2l0
+  url: aHR0cHM6Ly9naXRodWIuY29tL2RhbnV0ZWsvZXJpZS5naXQ=
+kind: Secret
+metadata:
+  annotations:
+    managed-by: argocd.argoproj.io
+  labels:
+    argocd.argoproj.io/secret-type: repository
+  name: repo-1501267603
+  namespace: openshift-gitops
+type: Opaque

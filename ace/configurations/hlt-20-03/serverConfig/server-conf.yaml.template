@@ -1,0 +1,7 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: server-hlt-20-03
+spec:
+  type: serverconf
+  contents: |-

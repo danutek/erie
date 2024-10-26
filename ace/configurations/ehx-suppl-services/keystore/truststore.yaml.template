@@ -1,7 +1,0 @@
-apiVersion: appconnect.ibm.com/v1beta1
-kind: Configuration
-metadata:
-  name: truststore.jks-ehx-suppl-services-eg01
-spec:
-  type: keystore
-  contents: |-

@@ -1,0 +1,7 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: setdbparms-hlt-20-01
+spec:
+  type: setdbparms
+  contents: |-
