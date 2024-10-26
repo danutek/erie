@@ -1,0 +1,11 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: aceclient.sth
+spec:
+  type: keystore
+  contents: |-
+    CWGpdrZPn/DKAA6Y+71iJ9qcpRCmMxOHwjINobAyK6ia/5V1Os8/cMqr850fAaP4ggsxkTr65qdr
+    SBmapYWn1XzcONcNEIxRVeradizIJ/mRpRusUrP6kh1CDSO/DsXSNaQF17B1FGZj7dtb2A/DMerH
+    oANFRRdaC463H2cDZcggj7Ou14yBLgTHMrxNPx/TtuDiD2WNX2q+5i9c5sMpYdog5N8W7y/pHK6U
+    jaPfFXauG7KXw177JybcuYYYuPQzMg==

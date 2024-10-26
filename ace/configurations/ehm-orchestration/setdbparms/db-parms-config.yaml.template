@@ -1,0 +1,7 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: setdbparms-ehm-orchestration-eg01
+spec:
+  type: setdbparms
+  contents: |-

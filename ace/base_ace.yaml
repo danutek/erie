@@ -1,8 +1,7 @@
 apiVersion: appconnect.ibm.com/v1beta1
 kind: IntegrationServer
 metadata:
-  name: dc1
-  namespace: ace
+  name: sed-hrq01 
 spec:
   enableMetrics: true
   license:
@@ -17,7 +16,7 @@ spec:
             cpu: 1300m
             memory: 1368Mi
           requests:
-            cpu: 300m
+            cpu: 120m
             memory: 368Mi
   adminServerSecure: false
   router:

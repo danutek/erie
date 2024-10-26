@@ -1,0 +1,7 @@
+ResourceManagers:
+  JVM:
+     jvmMinHeapSize: 33554432    # minimum JVM  heap size in bytes
+     jvmMaxHeapSize: 268435456   # maximum JVM heap size in bytes
+# for more heap use settings below
+#    jvmMinHeapSize: 262144000        # minimum JVM  heap size in bytes
+#    jvmMaxHeapSize: 1073741824       # maximum JVM heap size in bytes

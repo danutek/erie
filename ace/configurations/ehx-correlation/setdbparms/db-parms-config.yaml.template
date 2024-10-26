@@ -1,0 +1,7 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: setdbparms-ehx-correlation-eg01
+spec:
+  type: setdbparms
+  contents: |-

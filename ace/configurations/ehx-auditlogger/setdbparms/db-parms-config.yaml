@@ -1,0 +1,9 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: setdbparms-ehx-auditlogger-eg01
+spec:
+  type: setdbparms
+  contents: |-
+    bXE6OkxPQkxBV1MgYWNlY2xpZW50IHBhc3N3MHJkCnRydXN0c3RvcmU6OnRydXN0c3RvcmVQYXNz
+    IHRydXN0bWUgcGFzc3dvcmQK

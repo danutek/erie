@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<configuration>
+  <databases>
+    <database host="dfabd940-f973-422c-9fa9-0e47bcacb38b.btv48jcw0pdd6f4nmgvg.private.databases.appdomain.cloud" name="BLUDB" port="32305">
+      <parameter name="SecurityTransportMode" value="SSL"/>
+    </database>
+  </databases>
+  <dsncollection>
+    <dsn alias="ESB_SIT" host="dfabd940-f973-422c-9fa9-0e47bcacb38b.btv48jcw0pdd6f4nmgvg.private.databases.appdomain.cloud" name="BLUDB" port="32305"/>
+  </dsncollection>
+</configuration>

@@ -1,0 +1,11 @@
+<configuration>
+   <!-- Multi-line comments are not supported --> 
+   <dsncollection>
+      <dsn alias="ESBDS" name="ESBDEV" host="esb.db2service" port="50000"/>
+   </dsncollection>
+   <databases>
+      <database name="ESBDEV" host="esb.db2service" port="50000">
+         <parameter name="CurrentSchema" value="ESBDEV"/>
+      </database>
+   </databases>
+</configuration>

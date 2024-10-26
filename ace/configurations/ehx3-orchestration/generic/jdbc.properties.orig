@@ -1,0 +1,6 @@
+driverClass=com.ibm.db2.jcc.DB2Driver
+connectionURL=jdbc:db2://dfabd940-f973-422c-9fa9-0e47bcacb38b.btv48jcw0pdd6f4nmgvg.private.databases.appdomain.cloud:32305/BLUDB:sslConnection=true;
+userID=ESBSIT
+userPassword=WzaVG76Y6oGGUrv6@
+schemaName=ESBSIT
+project=ESB_RoutingR

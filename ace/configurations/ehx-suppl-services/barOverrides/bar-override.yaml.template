@@ -1,0 +1,7 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: overrides-ehx-suppl-services-eg01
+spec:
+  type: workdiroverride
+  contents: |-
