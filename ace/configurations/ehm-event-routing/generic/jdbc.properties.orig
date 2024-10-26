@@ -1,6 +1,0 @@
-driverClass=com.ibm.db2.jcc.DB2Driver
-connectionURL=jdbc:db2://esb.db2service:50000/ESBDEV
-userID=esbdev
-userPassword=passwd@ibm91
-schemaName=ESBDEV
-project=SAP_SFVFlwP

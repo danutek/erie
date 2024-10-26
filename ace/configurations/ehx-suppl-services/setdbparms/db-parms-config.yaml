@@ -1,9 +1,0 @@
-apiVersion: appconnect.ibm.com/v1beta1
-kind: Configuration
-metadata:
-  name: setdbparms-ehx-suppl-services-eg01
-spec:
-  type: setdbparms
-  contents: |-
-    bXE6OkxPQkxBV1MgYWNlY2xpZW50IHBhc3N3MHJkCm9kYmM6OkVIWFBST0QgZWh4YXBwICBlaHhh
-    cHAhMjAxNgp0cnVzdHN0b3JlOjp0cnVzdHN0b3JlUGFzcyB0cnVzdG1lIHBhc3N3b3JkCgo=

@@ -1,7 +1,0 @@
-apiVersion: appconnect.ibm.com/v1beta1
-kind: Configuration
-metadata:
-  name: policies-ehx-correlation-eg01
-spec:
-  type: policyproject
-  contents: |-

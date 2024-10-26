@@ -1,4 +1,0 @@
-mq::LOBLAWS aceclient passw0rd
-odbc::EHXPROD ehxapp  ehxapp!2016
-truststore::truststorePass trustme password
-

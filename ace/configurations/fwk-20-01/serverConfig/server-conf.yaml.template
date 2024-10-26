@@ -1,7 +1,0 @@
-apiVersion: appconnect.ibm.com/v1beta1
-kind: Configuration
-metadata:
-  name: server-fwk-20-01
-spec:
-  type: serverconf
-  contents: |-
