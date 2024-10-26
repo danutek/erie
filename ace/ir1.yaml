@@ -1,0 +1,30 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: IntegrationRuntime
+metadata:
+  name: ir-1
+  namespace: ace
+  labels:
+    backup.appconnect.ibm.com/component: integrationruntime
+spec:
+  version: '12.0.12-r5'
+  license:
+    accept: true
+    license: L-XRNH-47FJAW
+    use: AppConnectEnterpriseProduction
+  flowType:
+    toolkitFlow: true
+  routes:
+    disabled: true
+  template:
+    spec:
+      containers:
+      - name: runtime
+        resources:
+          limits:
+            cpu: 500m
+            memory: 512Mi
+          requests:
+            cpu: 500m
+            memory: 512Mi
+        image: cp.icr.io/cp/appc/ace-server-prod:12.0.12-r5-20241016-020017@sha256:ba21457044674a2e41b36c6e7dfcd716ee2a3d87575fa5c6bfc9d5e3c898d792
+        imagePullPolicy: IfNotPresent 
