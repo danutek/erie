@@ -1,7 +1,0 @@
-apiVersion: appconnect.ibm.com/v1beta1
-kind: Configuration
-metadata:
-  name: generic-crossdist-asn2c-eg01
-spec:
-  type: generic
-  contents: |-
