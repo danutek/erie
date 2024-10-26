@@ -1,0 +1,16 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  creationTimestamp: "2024-10-26T18:21:02Z"
+  name: admin
+  namespace: openshift-gitops
+  resourceVersion: "47540"
+  uid: e06e2ae2-7af0-4642-895d-179eec4fc114
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+subjects:
+- kind: ServiceAccount
+  name: openshift-gitops-argocd-application-controller
+  namespace: openshift-gitops

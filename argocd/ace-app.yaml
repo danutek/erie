@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: operators
+  name: ace
   namespace: openshift-gitops
 spec:
   project: default
@@ -10,10 +10,12 @@ spec:
   source:
     repoURL: https://github.com/danutek/erie.git
     targetRevision: HEAD            # Branch, tag, or commit
-    path: operators               # Path to the manifests in the repo
+    path: ace
 
   # Destination cluster and namespace
   destination:
     server: https://kubernetes.default.svc  # In-cluster API URL; use the cluster API URL if it's an external cluster
-    namespace: openshift-operators
-    
+    namespace: ace
+
+  directory:
+    recurse: true
