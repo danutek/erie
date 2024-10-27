@@ -3,7 +3,7 @@ kind: QueueManager
 metadata:
   annotations:
     com.ibm.mq/write-defaults-spec: 'false'
-  name: qmd1
+  name: qmd4
   namespace: mq
   finalizers:
     - finalizer.queuemanagers.mq.ibm.com
@@ -13,7 +13,7 @@ spec:
     license: L-JTPV-KYG8TF
     use: NonProduction
   queueManager:
-    name: QMD1
+    name: QMD4
     resources:
       limits:
         cpu: 500m
