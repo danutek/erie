@@ -1,0 +1,30 @@
+apiVersion: mq.ibm.com/v1beta1
+kind: QueueManager
+metadata:
+  name: qmd1
+  namespace: mq
+  annotations:
+    com.ibm.mq/write-defaults-spec: 'false'
+  namespace: openshift-operators
+spec:
+  license:
+    accept: true
+    license: L-JTPV-KYG8TF
+    use: NonProduction
+  web:
+    enabled: false
+  queueManager:
+    resources:
+      limits:
+        cpu: 500m
+      requests:
+        cpu: 500m
+    availability:
+      type: NativeHA
+    storage:
+      queueManager:
+        type: persistent-claim
+      defaultClass: ibmc-vpc-block-5iops-tier
+    name: QMD1
+  version: 9.4.0.6-r1
+

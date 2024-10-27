@@ -1,0 +1,8 @@
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  name: mq
+  annotations:
+    argocd.argoproj.io/sync-wave: "-2"
+    openshift.io/display-name: "MQ Project"
+    openshift.io/description: "This is the ACE OpenShift project"

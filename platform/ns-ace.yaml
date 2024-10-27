@@ -6,4 +6,3 @@ metadata:
     argocd.argoproj.io/sync-wave: "-2"
     openshift.io/display-name: "ACE Project"
     openshift.io/description: "This is the ACE OpenShift project"
-
