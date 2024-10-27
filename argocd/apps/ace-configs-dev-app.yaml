@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ace-configs-dev
+  namespace: openshift-gitops
+spec:
+  project: default
+  
+  # Source of the manifests
+  source:
+    repoURL: https://github.com/danutek/erie.git
+    targetRevision: HEAD            # Branch, tag, or commit
+    path: env/aceconfig/dev 
+
+  # Destination cluster and namespace
+  destination:
+    server: https://kubernetes.default.svc  # In-cluster API URL; use the cluster API URL if it's an external cluster
+    namespace: ace
+
+  directory:
+    recurse: false

@@ -1,8 +1,8 @@
 apiVersion: project.openshift.io/v1
 kind: Project
 metadata:
-  name: ace
+  name: utility
   annotations:
     argocd.argoproj.io/sync-wave: "-2"
-    openshift.io/display-name: "ACE Project"
-    openshift.io/description: "This is the ACE OpenShift project"
+    openshift.io/display-name: "Utility Pod Project"
+    openshift.io/description: "This is the Utility project"
