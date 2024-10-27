@@ -15,5 +15,5 @@ spec:
   # Destination cluster and namespace
   destination:
     server: https://kubernetes.default.svc  # In-cluster API URL; use the cluster API URL if it's an external cluster
-    namespace: ace
+    namespace: utility
 
