@@ -9,7 +9,7 @@ ResourceManagers:
 #  udp.service.lookup.FactoryVendor_CreateUpdate_RequestURL: 'https://vendorfactory--spr.cs47.my.salesforce.com/services/Soap/class/sapIntegrationServices'
 #  udp.service.lookup.FactoryVendor_SessionID_RequestURL: 'https://test.salesforce.com/services/Soap/c/39.0/0DF630000008Okn'
 #  udp.service.lookup.FactoryVendor_SessionID_EndPointUsername: 'vndcmp@loblaw.ca.spr'
-#  udp.service.lookup.FactoryVendor_SessionID_EndPointPassword: 'sprL5rpr#2018'
+#  udp.service.lookup.FactoryVendor_SessionID_EndPointPassword: 'fakeone'
 #  udp.service.lookup.FactoryVendor_SessionID_EndPointToken: 'XHDmAQAoWwBr4m6ClElZRP4ud'
 Defaults:
  policyProject: 'SAPConnectionPolicy'
