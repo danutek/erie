@@ -1,4 +1,3 @@
-
 The setdbparms folder is used to hold files that are used to build an ACE setdbparms configuration.
 
 Entries added to the file setdbparms.txt will be applied via a mqsisetdbparms command when the server starts. Note the entries can take on different formats and are documented in the ACE reference.

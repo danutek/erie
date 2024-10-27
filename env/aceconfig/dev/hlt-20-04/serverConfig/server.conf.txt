@@ -1,0 +1,15 @@
+ResourceManagers:
+  JVM:
+     jvmMinHeapSize: 262144000    # minimum JVM  heap size in bytes
+     jvmMaxHeapSize: 2147483648   # maximum JVM heap size in bytes
+# for more heap use settings below
+#    jvmMinHeapSize: 262144000        # minimum JVM  heap size in bytes
+#    jvmMaxHeapSize: 1073741824       # maximum JVM heap size in bytes
+#UserVariables:
+#  udp.service.lookup.FactoryVendor_CreateUpdate_RequestURL: 'https://vendorfactory.sample.com/sapServices'
+#  udp.service.lookup.FactoryVendor_SessionID_RequestURL: 'https://sample.com/Soap/c/39.0/0DF630000008Okn'
+#  udp.service.lookup.FactoryVendor_SessionID_EndPointUsername: 'vndcmp@sample.com'
+#  udp.service.lookup.FactoryVendor_SessionID_EndPointPassword: 'fakeOne'
+#  udp.service.lookup.FactoryVendor_SessionID_EndPointToken: 'fakefakefakefakefakefake'
+Defaults:
+ policyProject: 'SAPConnectionPolicy'

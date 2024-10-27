@@ -1,0 +1,11 @@
+truststore::truststorePass Fake@One Fake@One
+eis::EDI810ToSAPoutputAdapter.outadapter ESBSYSUSR Fake@One
+eis::EDI856ToSAPoutputAdapter.outadapter ESBSYSUSR Fake@One
+eis::IDOC_FI3.inadapter bad-ESBSYSUSR Fake@One
+eis::IDOC_SC3.inadapter bad-ESBSYSUSR Fake@One
+eis::InventoryAdjustmentOutputAdapter.outadapter ESBSYSUSR Fake@One
+eis::INVERCSAPAdapter.outadapter ESBSYSUSR Fake@One
+eis::WMSToSAPHOLT_IN.outadapter ESBSYSUSR Fake@One
+eis::WMSToSAPoutMBGMCR03Adapter.outadapter ESBSYSUSR Fake@One
+odbc::ESB_PROD esbprod Fake@One
+odbc::ESB20_DSN esbprod Fake@One 
