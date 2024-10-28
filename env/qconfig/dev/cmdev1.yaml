@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  one.mqsc: |
+    DEFINE QLOCAL('QUEUE_1F7D7B') REPLACE
+    DEFINE QLOCAL('QUEUE_2A9C4E') REPLACE
+    DEFINE QLOCAL('QUEUE_3E5B9A') REPLACE
+kind: ConfigMap
+metadata:
+  name: cmdev1
+  namespace: mq
