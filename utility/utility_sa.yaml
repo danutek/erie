@@ -5,6 +5,7 @@ kind: ServiceAccount
 metadata:
   annotations:
     openshift.io/internal-registry-pull-secret-ref: utility-dockercfg-gdxwv
+    argocd.argoproj.io/sync-wave: "-1"
   name: utility
   namespace: utility
 secrets:

@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ace
+  name: app-connect-runtimes
   namespace: openshift-gitops
 spec:
   project: default

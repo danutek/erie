@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: operators
+  name: cp4i-operators
   namespace: openshift-gitops
 spec:
   project: default
