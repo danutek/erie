@@ -1,0 +1,11 @@
+apiVersion: v1
+imagePullSecrets:
+- name: utility-dockercfg-gdxwv
+kind: ServiceAccount
+metadata:
+  annotations:
+    openshift.io/internal-registry-pull-secret-ref: utility-dockercfg-gdxwv
+  name: utility
+  namespace: utility
+secrets:
+- name: utility-dockercfg-gdxwv
