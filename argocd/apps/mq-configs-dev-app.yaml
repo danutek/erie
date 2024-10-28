@@ -11,6 +11,9 @@ spec:
     repoURL: https://github.com/danutek/erie.git
     targetRevision: HEAD            # Branch, tag, or commit
     path: env/qconfig/dev
+    directory:
+      jsonnet: {}
+      recurse: true
 
   # Destination cluster and namespace
   destination:
