@@ -15,6 +15,7 @@ spec:
     toolkitFlow: true
   routes:
     disabled: true
+  replicas: 5
   template:
     spec:
       containers:
