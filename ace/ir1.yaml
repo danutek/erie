@@ -15,8 +15,7 @@ spec:
     toolkitFlow: true
   routes:
     disabled: true
-  configurations:
-  - mqdbparms
+  replicas: 1
   template:
     spec:
       containers:
