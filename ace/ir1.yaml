@@ -16,6 +16,8 @@ spec:
   routes:
     disabled: true
   replicas: 1
+  configurations:
+  - mqdbparms
   template:
     spec:
       containers:
