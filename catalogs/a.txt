@@ -1,0 +1,1 @@
+mqsisetdbparms -w /home/aceuser/ace-server -n mq::QMD1 -u mquser -p "mqpa\\$sword"
