@@ -16,7 +16,7 @@ spec:
     name: QMD1
     resources:
       limits:
-        cpu: 500m
+        cpu: 1500m
       requests:
         cpu: 500m
     storage:
